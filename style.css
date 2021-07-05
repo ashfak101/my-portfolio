@@ -12,8 +12,9 @@ h1{
 .text-color span{
     color: blueviolet;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -34,4 +35,12 @@ section{
     background-image: url("image/top-banner.png");
     
     background-repeat: no-repeat;
+}
+.D-big{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.color{
+    color: blueviolet;
 }
