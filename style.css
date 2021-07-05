@@ -9,6 +9,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .text-color span{
     color: blueviolet;
 }
@@ -43,4 +46,28 @@ h1{
 }
 .color{
     color: blueviolet;
+}
+.b-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey ;
+    border-radius: 10px;
+
+}
+.expo-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.l-b{
+    border-left: 10px solid rgb(226, 85, 20);
+}
+.l-bb{
+    border-left: 10px solid rgb(192, 20, 226);
+}
+footer p{
+    text-align: center;
 }
